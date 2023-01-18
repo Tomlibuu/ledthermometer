@@ -17,3 +17,7 @@ DS18B20
 
 SMD5050 rgb led strip
 
+**Purpose**
+The purpose of this device is to measure the outside temperature and, with this information, set a certain color on the led strip to describe the value of the outside temperature. Color coding for different temperatures is almost a standard color coding used by, for example, meteorologists. More detailed color-temperature pairs can be found in the thermometer.ino file. Some of the colors have been used to depict a larger temperature range than others, because the colors started to run out and it would be too difficult to detect exact tonal differences from the led strip. The device also has an attached LCD screen for the reason that the user can check the exact outside temperature from it. One color always describes a gap of five or ten degrees.
+
+**Workflow**
