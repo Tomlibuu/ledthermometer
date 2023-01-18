@@ -11,10 +11,12 @@ This diagram shows the connections between the various components. In the diagra
 ![image](https://user-images.githubusercontent.com/94450686/213263069-1ba32cb0-a41f-461d-be96-a1545966d59e.png)
 DS18B20
 
-
+![IMG_20230118_211807__01](https://user-images.githubusercontent.com/94450686/213275088-d1309394-cc43-42f9-bfa3-cd8f107d6043.jpg)
+![IMG_20230118_211741__01](https://user-images.githubusercontent.com/94450686/213275142-f2dfb8a3-4e54-45ba-b4bd-65ec75b4abf7.jpg)
 1602 LCD display with I2C module
 
 
+![IMG_20230118_211835__01](https://user-images.githubusercontent.com/94450686/213274975-7e42f651-da85-4964-826d-8588e5b846b6.jpg)
 SMD5050 rgb led strip
 
 **Purpose**
