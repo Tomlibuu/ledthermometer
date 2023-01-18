@@ -1,6 +1,7 @@
 **Development notes**
 
 **Motivation of the project**
+
 In the fall of 2022, I participated in a course where my partner and I created something new from used electronics. The final product was a frisbee based on the intelligence of the smart watch's circuit board. The main purpose of this circuit board was to help the player find the disc he or she threw, if he or she has not found it himself or herself within a certain time. We used the sensors found on the circuit board to examine the execution of the throwing event, which enabled us to determine when the disc should start counting down the time to indicate its position. So we combined the data of more than one sensor, and thus we got the necessary information for the actual throw to occur. Additional documentation can be viewed in the frisbeegolf-finder repository found on my Github. With this course, I became even more interested in embedded systems. The output found in this repository was created as an interest in embedded systems.
 
 **Technical issues**
