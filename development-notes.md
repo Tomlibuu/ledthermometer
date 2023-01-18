@@ -11,13 +11,15 @@ This diagram shows the connections between the various components. In the diagra
 ![image](https://user-images.githubusercontent.com/94450686/213263069-1ba32cb0-a41f-461d-be96-a1545966d59e.png)
 DS18B20
 
-![IMG_20230118_211807__01](https://user-images.githubusercontent.com/94450686/213275088-d1309394-cc43-42f9-bfa3-cd8f107d6043.jpg)
 ![IMG_20230118_211741__01](https://user-images.githubusercontent.com/94450686/213275142-f2dfb8a3-4e54-45ba-b4bd-65ec75b4abf7.jpg)
+![IMG_20230118_211807__01](https://user-images.githubusercontent.com/94450686/213275088-d1309394-cc43-42f9-bfa3-cd8f107d6043.jpg)
 1602 LCD display with I2C module
-
 
 ![IMG_20230118_211835__01](https://user-images.githubusercontent.com/94450686/213274975-7e42f651-da85-4964-826d-8588e5b846b6.jpg)
 SMD5050 rgb led strip
+
+![IMG_20230111_003950](https://user-images.githubusercontent.com/94450686/213276022-253357d5-3d6b-4881-94cd-bd824ef1126b.jpg)
+Image of device wiring
 
 **Purpose**
 The purpose of this device is to measure the outside temperature and, with this information, set a certain color on the led strip to describe the value of the outside temperature. Color coding for different temperatures is almost a standard color coding used by, for example, meteorologists. More detailed color-temperature pairs can be found in the thermometer.ino file. Some of the colors have been used to depict a larger temperature range than others, because the colors started to run out and it would be too difficult to detect exact tonal differences from the led strip. The device also has an attached LCD screen for the reason that the user can check the exact outside temperature from it. One color always describes a gap of five or ten degrees.
